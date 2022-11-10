@@ -1,0 +1,28 @@
+input, textarea, select, button {
+    width : 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font  : 1.3rem sans-serif;
+    padding : 0.5em;
+    margin  : 0;
+    background : #222;
+  }
+  
+  form {
+    position : relative;
+    width  : 740px;
+    height : 498px;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background : #FFF url(background.jpg);
+  
+    /* creamos nuestra malla (grid) */
+    display  : grid;
+    grid-gap : 20px;
+    grid-template-columns : repeat(2, 1fr);
+    grid-template-rows    : 10em 1em 1em 1em;
+  }
